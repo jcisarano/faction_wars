@@ -8,4 +8,5 @@ A few things that might be interesting:
 - docs directory - Design documents, spreadsheets, instructions, test notes, a few screenshots
 - handlers directory - Essentially an API of actions hit by AJAX calls from the client
 - channel directory - If I recall correctly, this was a fb requirement
-- 
+
+While this was in development, I also released a simple "what faction are you" quiz and also a trading card app with images from Fallen Earth.

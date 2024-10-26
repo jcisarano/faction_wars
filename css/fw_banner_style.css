@@ -1,0 +1,22 @@
+div#banner{
+    background-color:#000;
+    margin-bottom:5px;
+}
+
+div#bannerBorderTop{
+    background-image: url('http://jcisarano.com/faction_wars/images/layout/bar-horizontal-bottom.png');
+    height: 8px;
+}
+
+div#bannerBody{
+	background-image: url('http://jcisarano.com/faction_wars/images/layout/nonskid_7.jpg');
+    padding-right:10px;
+    padding-left:10px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+div#bannerBorderBottom{
+    background-image: url('http://jcisarano.com/faction_wars/images/layout/bar-horizontal-bottom.png');
+    height: 8px;
+}

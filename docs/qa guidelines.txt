@@ -1,0 +1,75 @@
+Vault page
+Items purchased for Faction Points
+-includes both special inventory items and perks (e.g. gamma refill, etc)
+-is FP properly spent
+-is item properly rewarded
+-are invalid transactions rejected (e.g. I don't have enough FP, my stamina already full, etc)
+-is proper success/failure message given
+
+Merchant page
+Buying/selling items
+-can items be bought, sold, as appropriate (not all items can be bought)
+-are all transactions handled properly
+-is proper success/failure message given
+Upgrading items
+-are chips spent
+-is proper success/failure message given
+-is item improved, does progress bar advance, do stats update when appropriate
+
+Achievements
+-are all achievements awarded where appropriate
+
+Missions page
+-can all missions be completed (e.g. are all ingredients available)
+-are all rewards properly given
+
+Crafting page
+-can everything be crafted
+-are all items taken/rewarded correctly
+
+Pvp page
+-see appropriate opponent list (now determined by town level, will eventually be determined by player level)
+-properly conduct fight (win/loss message displayed, chips given/taken, xp given, stamina spent)
+
+Boss page
+-all active fights displayed (mine and friends')
+-all complete, reward-unclaimed fights displayed (mine and friends')
+-rewards claims working properly (given only where earned, otherwise rejected)
+-active fights lead to fight page
+
+Boss fight page
+-timer working
+-can fight boss, stamina cost correct
+-boss hp bar updates as points are lost (sometimes may not seem to update due to very high amt of boss hp)
+-see friends' fight participation
+-able to post invites to news feed
+
+Boss fight system
+-able to complete complete cycle for all nine bossees:
+send gift/claim gift
+craft summon item
+use summon item
+fight boss
+collect rewards
+
+Town turnover system
+-is influence awarded where appropriate (missions, pvp, boss reward)
+-does the timer work on all pages
+-does the turnover happen where appropriate
+
+All pages with map
+-locks and player position icon work
+-links to town display properly
+-ownership icons correct
+-borders on ownership icons correct color for player faction's standing
+
+Facebook integration
+-do all of these features work:
+bookmark
+become a fan
+news feed posts
+dashboard posts
+
+Player stats
+-properly updated where appropriate
+-all timers working properly (no conflicts when updated from outside, starting time matches player stats,etc)

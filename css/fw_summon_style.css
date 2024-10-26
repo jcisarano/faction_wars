@@ -1,0 +1,72 @@
+div#summonMishList{
+	margin-top:5px;
+	margin-right:9px;
+	background-image: url('http://jcisarano.com/faction_wars/images/layout/nonskid_7.jpg');
+	border:1px solid #2d2d2d;
+	padding:3px;
+	overflow:hidden;
+}
+
+div.summonMish{
+    margin:0px;
+	padding:0px;
+}
+
+div.summonMish h1{
+    margin-bottom:5px;
+}
+
+div.summonMish img{
+    width:100px;
+    height:100px;
+}
+
+div.smFullColumn{
+    margin-left:5px;
+    margin-right:5px;
+    padding:5px;
+    background:#000;
+    border:1px solid #2d2d2d;
+}
+
+div.smDoubleWideColumn{
+    width:73%;
+    overflow:hidden;
+    float:left;
+    margin-left:5px;
+    margin-bottom:5px;
+    border:1px solid #2d2d2d;
+    padding:5px;
+	background:#000;
+}
+
+div.smDoubleWideColumn img{
+    float:left;
+	margin-right:5px;
+}
+
+div.smDoubleWideColumn a{
+    color:yellow;
+}
+
+div.summonFail{
+    margin:5px;
+    padding:5px;
+    border:1px solid #2d2d2d;
+	background:#000;
+}
+
+div.smNarrowColumn{
+    margin-left:5px;
+	padding:5px;
+    float:left;
+    width:20%;
+	/*border:1px solid #2d2d2d;*/
+	text-align:center;
+}
+
+div.smNarrowColumn img{
+    width:100px;
+	height:100px;
+}
+

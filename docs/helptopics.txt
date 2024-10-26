@@ -1,0 +1,30 @@
+Popup help topics by page
+
+Home page
+     Achievement points
+     Achievements - Change names
+
+Missions page
+         Unlocking a town
+         Missions - Requirements, rewards
+         Missions - Mastery
+         Missions - Generic, Ally, Faction
+
+Factions page
+         Owning a town
+
+Merchant page
+         Weapons and armor - Can't buy
+         Skills and mutations - mastery
+
+Brawl page
+      Brawl - pick opponents
+      Brawl - army
+      Brawl - gear
+      Brawl - owning a town
+
+Vault page
+      Faction points - How to earn, how to spend
+Team page
+     Build a team
+     Gifts

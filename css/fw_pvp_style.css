@@ -1,0 +1,181 @@
+div.pvpResult{
+    background-color: #000;
+	border: 1px solid #d27111;
+	padding:5px;
+	margin:5px;
+	background-image: url('http://jcisarano.com/faction_wars/images/layout/nonskid_7.jpg');
+	overflow:hidden;
+}
+
+div.pvpResult img{
+	float:left;
+	margin-right:5px;
+	border:2px solid #2d2d2d;
+}
+
+div.pvpResult p{
+	float: left;
+	width:330px;
+	margin-top:0px;
+	margin-bottom:5px;
+	padding-top:0px;
+	padding-bottom:5px;
+	border:2px solid #2d2d2d;
+	background-color:#000;
+	padding:5px;
+	margin-right:5px;
+}
+
+div#resultTitle{
+    margin:15px 5px 5px;
+	padding:0px;
+}
+
+div.mishResult div{
+
+}
+
+div.mishResult input{
+	float:right;
+}
+
+div.mishText{
+	float:left;
+	width:388px;
+	border:2px solid #2d2d2d;
+	padding:8px;
+	margin-left:5px;
+	margin-bottom:5px;
+	background-color:#000;
+}
+
+div.mishText a{
+	color:#ffff00;
+}
+
+
+/************************** 
+                      Pvp opponent list table **/
+div#opponentList{
+	table-layout:fixed;
+	width:100%;
+}
+
+div#opponentList table{
+	table-layout:fixed;
+	width:100%;
+	border-collapse: collapse;
+}
+
+div#opponentList th{
+	color:#e5bc75;
+	font-size:15px;
+}
+
+div#opponentList td{
+	width:17%;
+	padding:5px;
+	margin:5px;
+}
+
+div#opponentList tr:hover td{
+	background-color:#2d2d2d;
+}
+
+/************************** 
+                      end pvp opponent table **/
+
+table#pvpGear{
+	padding:3px;
+}
+table#pvpGear td{
+	padding:3px;
+}
+
+div#pvpInfo{
+	width:27%;
+	float:left;
+}
+
+div#pvpWheel{
+	border: 1px solid #2d2d2d;
+	margin: 5px;
+	padding: 5px;
+	float:left;
+	background-color:#000;
+}
+
+/************************** 
+                      Pvp item offer **/
+div.pvpItem{
+	border: 1px solid #2d2d2d;
+	margin: 5px;
+	padding: 5px;
+	width:27%;
+	float:left;
+	background-color:#000;
+}
+
+div.pvpItem h1{
+	text-align:center;
+}
+
+div.pvpItem img{
+	float: left;
+	margin-right: 5px;
+	margin-top:5px;
+	margin-bottom:5px;
+	background-color:white;
+}
+
+div.pvpItem a{
+	color:yellow;
+}
+
+div.pvpItem div{
+	text-align:center;
+	clear:both;
+	margin-left:auto;
+	margin-right:auto;
+	width:70%;
+}
+/************************** 
+                      End pvp item **/
+
+div#opponentTable{
+	border:2px solid #2d2d2d;
+	background-color:#000;
+	padding:5px;
+	margin-right:5px;
+}
+
+div#pvpGearTable{
+	border:2px solid #2d2d2d;
+	background-color:#000;
+	padding:5px;
+	margin-right:5px;
+	position:absolute;
+	width:89%;
+}
+
+div#pvpGearTable a{
+	color:#FFFF00;
+}
+
+table#gearTable{
+	border-collapse:collapse;
+	margin:3px;
+	width:100%;
+}
+table#gearTable th{
+	padding:5px;
+	border-left:1px solid #2d2d2d;
+	width:50%;
+}
+
+table#gearTable td{
+	border-left:1px solid #2d2d2d;
+	padding-left:5px;
+	width:50%;
+	vertical-align:top;
+}

@@ -1,0 +1,72 @@
+bug fixes
+fixed bug with crafting page where no information displayed
+fixed character creation bug
+fixed gift giving bug for inventory gifts
+updated mission text
+fixed bug where player name wasn't displaying in dashboard post
+
+features
+once-daily gift:
+    display: team page shows message with send button
+    handler: verifies cooldown, adds gift and time to inventory
+    message system: notifies recipient of gift arrival
+    team screen: shows list of available gifts
+                 gives choice of town on click
+added summon mission to mission page
+added boss fight page with these features:
+    browse active fights (self, friend)
+    browse uncollected rewards (self, friends)
+    collect reward w/unique treasure table for each fight
+    jump to active fight
+added boss fight:
+    player does damage to boss & can kill it
+    damage based on player attack value and player's best items +/- 10%
+    fight times out at set interval after summon
+    player earns chips and XP during fight
+boss fights:
+    added support for multiple stages of text during boss fight:
+        uses a dynamic syetem based on the number of items added spread evenly
+           throughout the fight
+    added health bar for boss monster
+    added boss countdown timer
+    stamina cost now comes from mission data and is displayed on attack button
+    boss crafting items and summon items are spent on use
+    boss fight rewards are now spent on use (no more farming rewards!)
+    boss rewards adds influence for your faction in the town only if you don't already own it
+    added new boss text
+    added win/loss img handling in boss reward
+    added loss text to boss fight timeout in boss reward
+map display:
+    now defaults to town at player's level (mission, towns, crafting, merchant, pvp)
+
+improved xp and chip systems to make sure player gets faction bonuses
+added health point purchase for chips
+
+
+display items
+changed achievement display to use pure css instead of hr tag
+improved margins and padding on achievement display list
+updated wording - changed all instances of "team" to "clan"
+changed mission ingredient text to images - "short" items have red bg and frame
+rearranged mission result:
+    added progress bar
+    repositioned repeat mission button under image
+    tweaked result layout boxes
+reformat message output in home
+tweak borders in clan/invite/gift page
+rework nav bar to display properly in IE 8
+correct display of player data for IE 8
+
+fixed boss achievements--all 3 should now be earnable
+fixed griefer achievement -- will now award on 100 wins against each fac, 600 total
+added hookup data for all achievements
+added new achievement text
+
+
+metrics
+added level distribution chart
+added stamina distribution chart
+added gamma distribution chart
+
+balance
+removed leather pants as reward item from Dry Flats "Minimal Protection" - leather pants now come only from crafting

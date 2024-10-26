@@ -1,0 +1,610 @@
+/*
+ * Faction Wars main stylesheet
+ *
+ * @version 25 August 2009
+ * @author Jason Cisarano jcisarano@icarusstudios.com
+ *
+ * @history
+ *         created 24 August 2009
+ *                 25 August
+ *                        added body, banner, left and right cols
+ */
+
+div#content{
+    margin-right:8px;
+	margin-left:5px;
+} 
+ 
+*{
+    font-family: Helvetica,Arial,sans-serif;
+	font-size:12px;
+    color:#fff;
+}
+/************************************
+General items
+*************************************/
+div.fwClear{
+	clear:both;
+}
+
+div.fullWidthPanel{
+    border:1px solid #2d2d2d;
+	background-color:#000;
+	margin-bottom:5px;
+	padding:5px;
+}
+
+div.fullWidthFrame{
+    border:1px solid #2d2d2d;
+	background-image: url('http://jcisarano.com/faction_wars/images/layout/nonskid_7.jpg');
+	margin-bottom:5px;
+	padding:5px;
+}
+
+div#content{
+    padding-top:25px;
+	z-index:0;
+}
+
+div#fwBody{
+    background-color:#000;
+    background-image: url('http://jcisarano.com/faction_wars/images/layout/newbg.jpg');
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+	height:100%;
+	overflow:hidden;
+}
+
+input.fwButton{
+    color:#d27111;
+	font-family:Helvetica, Arial, sans-serif;
+	font-weight:bold;
+    background-color: #000;
+    border: 1px solid #d27111;
+	cursor:pointer;
+}
+
+input.fwButton_disabled{
+    color:#6e6e6e;
+	font-family:Helvetica, Arial, sans-serif;
+	font-weight:bold;
+    background-color: #000;
+    border: 1px solid #6e6e6e;
+}
+
+h1{
+	color:#e5bc75;
+	font-size:14px;
+}
+
+/** Player Data **/
+div#playerData{
+    float: right;
+    width: 270px;
+    text-align: left;
+}
+
+div#playerData table{
+	background-color: #000;
+}
+
+div#pdBorderTop{
+	position:relative;
+	color:#d27111;
+	text-align:right;
+	padding-right:27px;
+	padding-top:8px;
+	padding-bottom:0px;
+	padding-left:0px;
+	font-size:14px;
+	z-index:100;
+	background-image: url('http://jcisarano.com/faction_wars/images/layout/frame-login-top.png');
+	background-position: 0px 0px;
+    background-repeat: no-repeat;
+	height:55px;
+}
+
+div#pdBody{
+	position:relative;
+	margin-left:3px;
+	margin-top:-35px;
+	padding-left:14px;
+	padding-bottom:25px;
+	z-index:1;
+	background-image:url('http://jcisarano.com/faction_wars/images/layout/pd_bg.jpg');
+    background-position: top left;
+    background-repeat: repeat-y;
+}
+
+.label{
+	font-size:12px;
+    color:#e5bc75;
+	text-align:right;
+}
+td.stat{
+	font-size:14px;
+}
+
+td.timer{
+    color:#d27111;
+}
+/** End player data **/
+
+div#leftCol{
+    width: 150px;
+    min-height: 300px;
+    float: left;
+}
+
+div#rightColBorderTop{
+    height: 28px;
+	position:relative;
+	top:-25px;
+	z-index:2;
+    margin-left: 150px;
+	background-image: url('http://jcisarano.com/faction_wars/images/layout/bar-horizontal-top.png');
+    background-position: -2px 0px;
+    background-repeat: no-repeat;
+    clear: both;
+}
+
+div#rightCol{
+    background-color: #000;
+    color: #fff;
+	position:relative;
+	top:-25px;
+	overflow:hidden;
+
+    background-image:url('http://jcisarano.com/faction_wars/images/layout/rightcol_bg2.jpg');
+    background-position: top left;
+    background-repeat: repeat-y;
+
+    margin-left: 150px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+div#footer{
+    /*background-color: #000;*/
+    color: #fff;
+
+	position:relative;
+	top:-25px;
+
+    background-image:url('http://jcisarano.com/faction_wars/images/layout/rightcol_bg2.jpg');
+    background-position: top left;
+    background-repeat: repeat-y;
+
+    margin-left: 150px;
+	padding-left: 19px;
+	padding-right: 10px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+div#footer div{
+	width: 50%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+dif#footer img{
+	margin:8px;
+}
+
+div#borderFrameBottom{
+	position:relative;
+	top:-25px;
+    height: 8px;
+    margin-left: 150px;
+    background-image: url('http://jcisarano.com/faction_wars/images/layout/bar-horizontal-bottom.png');
+    background-position: bottom left;
+    background-repeat: repeat-x;
+}
+
+div.clearDiv{
+    clear: both;
+}
+
+div#popupNotice{
+    color:#fff;
+    width: 430px;
+    background-color:#000;
+    background-image: url('http://jcisarano.com/faction_wars/images/layout/dialog_bg3.jpg');
+    background-position: left;
+    background-repeat: repeat-y;
+	padding-top:8px;
+	padding-bottom:8px;
+	overflow: hidden;
+}
+
+div#popupNotice img{
+	float:left;
+	margin-left:15px;
+	margin-right:6px;
+	padding-bottom:5px;
+	padding-top:5px;
+}
+
+div#popupNotice p{
+	text-align:center;
+	font-weight: bold;
+	margin: 15px;
+}
+div.popupHorizBar{
+    height: 8px;
+    width: 430px;
+
+    clear: both;
+    background-image: url('http://jcisarano.com/faction_wars/images/layout/bar-horizontal-bottom.png');
+    background-position: bottom left;
+    background-repeat: repeat-x;
+}
+
+span.tooltip{
+    display: none;
+}
+
+div.locked:hover{
+    position: relative;
+}
+
+div.locked:hover span{
+    display: block;
+    width: 110px;
+    position: absolute;
+    z-index:1000;
+    background-color:#6e6e6e;
+    border: thin solid black;
+    color: #fff;
+}
+
+div.badge:hover{
+    position: relative;
+}
+
+div.badge:hover span{
+    display: block;
+    width: 85px;
+    position: absolute;
+    z-index:1000;
+    background-color:#6e6e6e;
+    border: thin solid black;
+    color: #fff;
+}
+
+/** Char sheet / stat modifier**/
+#charSheet th{
+	font-size:15px;
+	text-align:center;
+}
+#charSheet td{
+	font-size:14px;
+}
+
+#charSheet tr:first-child{
+	text-align:right;
+}
+
+#descCol{
+	width: 65%;
+}
+
+div#stats{
+	padding: 5px;
+	border: 1px solid #2d2d2d;
+	margin-left:5px;
+	margin-right:5px;
+	margin-bottom:5px;
+	background:#000;
+}
+
+.statCol{
+	text-align:center;
+}
+
+div#stats h1{
+	font-size:14px;
+	color:#fff;
+	font-weight:bold;
+	padding:0px;
+	margin:0px;
+	text-align:center;
+}
+
+div#stats a{
+	color:yellow;
+}
+/** END Char sheet / stat modifier**/
+
+/************************** 
+                      Featured item offer **/
+div#featItem{
+	border: 1px solid #2d2d2d;
+	margin: 5px;
+	padding: 5px;
+	width:33%;
+	float:right;
+	background:#000;
+}
+
+div#featItem h1{
+	text-align:center;
+}
+
+div#featItem img{
+	float: left;
+	margin-right: 5px;
+	margin-top:5px;
+	margin-bottom:5px;
+	background-color:white;
+}
+
+div#featItem a{
+	color:#FFFF00;
+}
+
+div#featItem div{
+	text-align:center;
+	clear:both;
+	margin-left:auto;
+	margin-right:auto;
+	width:70%;
+}
+/************************** 
+                      End featured item **/
+
+/************************** 
+                      Messages       
+	messagePanel is inside messageFrame**/
+div#messagePanel{
+	border: 1px solid #2d2d2d;
+	padding: 5px;
+	margin:0px;
+	margin-top:3px;
+	margin-bottom:5px;
+	overflow:auto;
+	font-size: 14px;
+	height:156px;
+	background:#000;
+}
+	
+div#messageFrame{
+	border: 1px solid #2d2d2d;
+	width:60%;
+	height:190px;
+	margin: 5px;
+	padding: 5px;
+	background-image: url('http://jcisarano.com/faction_wars/images/layout/nonskid_7.jpg');
+}
+/************************** 
+                      End messages       **/
+
+/**************************
+		Clan info		**/
+div#clanInfo{
+	border: 1px solid #2d2d2d;
+	margin-left:5px;
+	margin-right:5px;
+	margin-bottom:5px;
+	padding:5px;
+	background:#000;
+}
+/**************************
+		End clan info	**/
+
+/************************** 
+                      End messages       **/
+
+/**************************
+		Pvp info		**/
+div#pvpInfo{
+	border: 1px solid #2d2d2d;
+	margin-right:5px;
+	margin-left:5px;
+	margin-bottom:5px;
+	padding:5px;
+	background-color:#000;
+}
+/**************************
+		End pvp info	**/
+		
+div#map{
+	position:relative;
+	left:-10px;
+	margin-bottom:10px;
+}
+
+div.progressBarFrame{
+	border:1px solid #646464;
+	height:5px;
+	margin-bottom:3px;
+	background-color:#000;
+}
+div.progressBarFrame div{
+	background-color:#d27111;
+	height:100%
+}
+
+/***************************
+		Loadscreen		**/
+div#loadscreen{
+	display:none;
+	border: 2px solid #2d2d2d;
+	position:absolute;
+	top:200px;
+	left:200px;
+	height: 150px;
+	width: 150px;
+	background-color:#000;
+	z-index:1000;
+	text-align:center;
+	padding:5px;
+}
+
+/***************************
+		Navbar		**/
+div#navBar{
+    position:absolute;
+    right:0;
+    left:10px;
+    top:4px;
+	z-index:101;
+}
+
+div#navBar li{
+	text-align:center;
+    border: 2px solid #2d2d2d;
+	color:#d27111;
+	font-size:16px;
+	font-weight: bold;
+	background-color:#000;
+	padding:0;
+	float:left;
+	width:80px;
+}
+
+div#navBar a{
+    color:#d27111;
+	font-size:16px;
+	font-weight: bold;
+}
+
+div#navBar > div {
+    position:relative;
+	margin:auto;
+	width:50em;
+}
+
+div#navBar ul {
+    position:absolute;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	left:0;
+	width:100%;
+}
+
+div#navBar > div > ul {
+	top:0;
+}
+
+div#navBar li ul {
+    display:none;
+	position:absolute;
+	left:98px;
+	top:22px;
+}
+
+#navBar li:hover ul{
+	display:block;
+	z-index:100;
+}
+
+
+/**
+ul#menuItems > li {
+    float:left;
+}**/
+
+
+		
+		
+div#pageNav {
+    text-align: right;
+    margin-right: 15px;
+}
+
+
+/***************************
+		Help item		**/
+div#apItem {
+	display:none;
+}
+div#achItem {
+	display:none;
+}
+div#mishItem {
+	display:none;
+}
+div#pvpItem {
+	display:none;
+}
+div#clanItem {
+	display:none;
+}
+div#teamItem {
+	display:none;
+}
+div#pvpGear{
+	display:none;
+}
+a.infoLink {
+	text-align:right;
+	color:#ffff00;
+	display:block;
+	margin-right:8px;
+}
+
+div.helpiteminner{
+	border: 5px solid #2d2d2d;
+	position:absolute;
+	left:100px;
+	height: auto;
+	width: 400px;
+	background-color:#000;
+	z-index:1000;
+	padding:8px;
+}
+
+div.helpiteminner p {
+	font-size:14px;
+	font-weight:normal;
+	text-align:left;
+}
+div.helpiteminner h1 {
+	color:#e5bc75;
+}
+div.helpiteminner a {
+	color:#FFFF00;
+}
+
+h1#townName{
+    text-align:center;
+}
+
+h1#townName span{
+	font-size:22px;
+	font-weight:bold;
+	color:#e5bc75;
+}
+
+/****************************
+Bookmark, fan div
+*****************************/
+div#bookmark{
+    padding:5px;
+	margin-left:5px;
+	margin-right:5px;
+	margin-bottom:5px;
+	background-image: url('http://jcisarano.com/faction_wars/images/layout/nonskid_7.jpg');
+	border:1px solid #2d2d2d;
+	overflow:hidden;
+}
+
+div#bookmark div{
+    width:48%;
+	height:90px;
+    float:left;
+	border:1px solid #2d2d2d;
+	margin-right:5px;
+	background:#000;
+}
+
+div#bookmark p{
+    padding:0;
+	margin:5px;
+}
+/*****************************/

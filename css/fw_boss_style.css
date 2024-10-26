@@ -1,0 +1,212 @@
+/***************************
+Boss list stuff
+****************************/
+
+div.bossList{
+    margin:5px;
+    padding:5px;
+	background-image: url('http://jcisarano.com/faction_wars/images/layout/nonskid_7.jpg');
+	border:1px solid #2d2d2d;
+}
+
+div#content{
+    min-height:500px;
+}
+
+div.bossList h1:first-child{
+    margin-bottom:4px;
+}
+
+div.bossFightItem{
+    border:1px solid #2d2d2d;
+    padding:5px;
+	background-color:#000;
+	margin-bottom:5px;
+	overflow:hidden;
+}
+div.bossFightItem img{
+    display:block;
+	float:left;
+	width:60px;
+	height:60px;
+	margin-right:5px;
+}
+
+div.bossFightItem input{
+    float:right;
+	margin-right:5px;
+	width:100px;
+}
+
+div.bossFightItem div div{
+    /*float:left;*/
+}
+
+div.bossFightItem a{
+    color:#FFFF00;
+}
+
+/**************************
+Boss fight
+***************************/
+div#bossFight{
+    border:1px solid #2d2d2d;
+	background-image: url('http://jcisarano.com/faction_wars/images/layout/nonskid_7.jpg');
+    margin-left:5px;
+    margin-right:5px;
+    margin-bottom:5px;
+    padding:5px;
+    overflow:hidden;
+}
+
+div#bossHeader h1{
+    text-align:center;
+    font-size:18pt;
+	font-weight:bold;
+    color:#000;
+}
+
+div#bossHeader p{
+    margin:0;
+	padding:0;
+    text-align:center;
+	font-size:14pt;
+	font-weight:bold;
+	color:#000;
+}
+
+span#bossTimer span{
+    font-size:14pt;
+    color:#000;
+}
+
+div#bossHeader {
+    border:2px solid #2d2d2d;
+    background:#000;
+	background-image: url('http://jcisarano.com/faction_wars/images/layout/bossTitleTest_bg.jpg');
+    margin-left:5px;
+    margin-right:5px;
+    margin-bottom:5px;
+    padding:5px;
+    overflow:hidden;
+	text-align:center;
+}
+
+div#bossHealthBar{
+}
+
+div#bossBody {
+    border:1px solid #2d2d2d;
+    background:#000;
+    margin-left:5px;
+    margin-right:5px;
+    margin-bottom:5px;
+    padding:5px;
+    overflow:hidden;
+}
+
+div#bossBody img{
+    float:left;
+    margin-right:5px;
+    margin-bottom:5px;
+}
+
+div#bossPalsList{
+    border:1px solid #2d2d2d;
+    background-image: url('http://jcisarano.com/faction_wars/images/layout/nonskid_7.jpg');
+    margin-bottom:5px;
+    margin-top:5px;
+    padding:5px;
+    overflow:hidden;
+}
+
+div#bossPalsList h1{
+    margin-bottom:5px;
+}    
+
+div.bossPal{
+    border:1px solid #2d2d2d;
+    background:#000;
+    padding:5px;
+    margin-bottom:5px;
+}
+
+div#bossResult{
+    display:none;
+    border:1px solid #2d2d2d;
+    background:#000;
+    margin-left:5px;
+    margin-right:5px;
+    margin-bottom:5px;
+    padding:5px;
+    overflow:hidden;
+}
+div#resultTitle{
+
+}
+div#resultBody{
+}
+
+div.topRule{
+    border-top:3px solid #fff;
+    padding-top:5px;
+}
+
+span#bossText{
+    display:block;
+    margin-bottom:5px;
+}
+
+/*********************
+******hp bar
+**********************/
+div.hpBarFrame{
+    border:1px solid #646464;
+    height:20px;
+    margin-bottom:7px;
+    background-color:#000;
+}
+div.hpBarFrame div{
+    background-color:#d27111;
+    height:100%
+}
+
+div.hpBarFrame div span{
+    width:5em;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    font-size:15pt;
+    font-weight:bold;
+}
+
+span#bossHp{
+    display:inline;
+}
+
+/*********************
+******REWARD DISPLAY
+**********************/
+div.bossReward{
+    padding:5px;
+}
+
+div.bossReward div{
+    margin-bottom:8px;
+}
+
+div.bossReward ul{
+    margin-bottom:5px;
+}
+
+div.bossReward li{
+    margin-left:5px;
+}
+
+div.bossReward img{
+    display:block;
+	padding:8px;
+	margin-left:auto;
+	margin-right:auto;
+	border:3px solid #2d2d2d;
+} 

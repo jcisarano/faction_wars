@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><umlet_diagram><help_text>// Uncomment the following line to change the fontsize:
+// fontsize=14
+
+// Welcome to UMLet!
+//
+// Double-click on UML elements to add them to the diagram.
+// Edit element properties by modifying the text in this panel.
+// Edit the files in the 'palettes' directory to create your own element palettes.
+// Hold down Ctrl to select multiple elements.
+// Press Del to delete elements.
+// Press Ctrl-c to copy an element, and to store the whole UML diagram to the system clipboard.
+// Select "Custom elements &gt; New..." to create new element types.
+//
+// This text will be stored with each diagram;  use it for notes.</help_text><element><type>com.umlet.element.base.Class</type><coordinates><x>0</x><y>740</y><w>150</w><h>120</h></coordinates><panel_attributes>missions.php
+--
+$player: Player
+$db: PlayerDatabase
+$map: Map
+--
+showMissions()
+runMission()</panel_attributes><additional_attributes/></element><element><type>com.umlet.element.base.Class</type><coordinates><x>0</x><y>1280</y><w>150</w><h>100</h></coordinates><panel_attributes>get_missions.php
+--
+$db:DatabaseAccess
+$townid:int
+$player_faction:int
+$missions[]:Mission
+
+</panel_attributes><additional_attributes/></element><element><type>com.umlet.element.base.Class</type><coordinates><x>190</x><y>740</y><w>160</w><h>90</h></coordinates><panel_attributes>mission_handler.php
+--
+$missionid:int
+$mission:Mission
+$player:Player
+</panel_attributes><additional_attributes/></element><element><type>com.umlet.element.base.Class</type><coordinates><x>0</x><y>1120</y><w>150</w><h>120</h></coordinates><panel_attributes>Map
+--
+$db:DatabaseAccess
+--
+draw_mission_map()
+draw_faction_map()
+draw_item_map()
+draw_pvp_map()
+</panel_attributes><additional_attributes/></element><element><type>com.umlet.element.base.Class</type><coordinates><x>0</x><y>610</y><w>150</w><h>100</h></coordinates><panel_attributes>index.php
+--
+$db:PlayerDatabase
+$player:Player
+--
+create_character()
+character_display()
+
+</panel_attributes><additional_attributes/></element><element><type>com.umlet.element.base.Class</type><coordinates><x>380</x><y>610</y><w>150</w><h>100</h></coordinates><panel_attributes>factions.php
+--
+$map:Map
+$db:DatabaseAccess
+$player:Player
+--
+showFactions()</panel_attributes><additional_attributes/></element><element><type>com.umlet.element.base.Class</type><coordinates><x>190</x><y>1120</y><w>150</w><h>110</h></coordinates><panel_attributes>get_factions.php
+--
+$db:DatabaseAccess
+$sectors:
+$factions[]:Faction
+$player_faction:int
+$town:int</panel_attributes><additional_attributes/></element><element><type>com.umlet.element.base.Class</type><coordinates><x>190</x><y>1260</y><w>150</w><h>100</h></coordinates><panel_attributes>get_items.php
+--
+$db:DatabaseAccess
+$townid:int
+$player_faction:int
+$items[]:String
+
+</panel_attributes><additional_attributes/></element><element><type>com.umlet.element.base.Class</type><coordinates><x>190</x><y>1390</y><w>150</w><h>120</h></coordinates><panel_attributes>get_opponents.php
+--
+$db:DatabaseAccess
+$pvp:PvpDatabase
+$townid: int
+$player_faction:int
+$player_level:int
+</panel_attributes><additional_attributes/></element><element><type>com.umlet.element.base.Class</type><coordinates><x>550</x><y>910</y><w>150</w><h>220</h></coordinates><panel_attributes>pvp_handler.php
+--
+$db:DatabaseAccess
+$pvp:PvpDatabase
+$player:Player
+$opponent:Player
+$town_id:int
+$p_weapons[]:String
+$p_armor[]:String
+$p_skills[]:String
+$p_mutes[]:String
+$xp:int
+$chips:int</panel_attributes><additional_attributes/></element><element><type>com.umlet.element.base.Class</type><coordinates><x>190</x><y>910</y><w>160</w><h>130</h></coordinates><panel_attributes>transaction_handler.php
+--
+$itemid:int
+$playerid:int
+$townid:int
+$player_fac:int
+$type:String
+$price:int</panel_attributes><additional_attributes/></element><element><type>com.umlet.element.base.Class</type><coordinates><x>0</x><y>910</y><w>150</w><h>130</h></coordinates><panel_attributes>merchant.php
+--
+$map:Map
+$db:DatabaseAccess
+$player:Player
+$p_inventory[]:String
+--
+showItems()
+handleTransactions()</panel_attributes><additional_attributes/></element><element><type>com.umlet.element.base.Class</type><coordinates><x>380</x><y>910</y><w>150</w><h>150</h></coordinates><panel_attributes>pvp.php
+--
+$map:Map
+$db:DatabaseAccess
+$pvp:PvpDatabase
+$player:Player
+$inventory[]:String
+--
+handlePvp()
+showOpponents()</panel_attributes><additional_attributes/></element><element><type>com.umlet.element.base.Relation</type><coordinates><x>130</x><y>760</y><w>80</w><h>40</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>60;20;20;20</additional_attributes></element><element><type>com.umlet.element.base.Relation</type><coordinates><x>130</x><y>950</y><w>80</w><h>40</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>60;20;20;20</additional_attributes></element><element><type>com.umlet.element.base.Relation</type><coordinates><x>510</x><y>950</y><w>60</w><h>40</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>40;20;20;20</additional_attributes></element><element><type>com.umlet.element.base.Relation</type><coordinates><x>50</x><y>1220</y><w>40</w><h>80</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>20;60;20;20</additional_attributes></element><element><type>com.umlet.element.base.Relation</type><coordinates><x>130</x><y>1150</y><w>80</w><h>40</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>60;20;20;20</additional_attributes></element><element><type>com.umlet.element.base.Relation</type><coordinates><x>130</x><y>1150</y><w>80</w><h>160</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>60;140;20;20</additional_attributes></element><element><type>com.umlet.element.base.Relation</type><coordinates><x>130</x><y>1150</y><w>80</w><h>310</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>60;290;20;20</additional_attributes></element><element><type>com.umlet.element.base.Class</type><coordinates><x>620</x><y>530</y><w>190</w><h>360</h></coordinates><panel_attributes>DatabaseAccess
+--
+$db_util:DatabaseUtilities
+--
+get_player_data()
+get_mission_data()
+update_player_db()
+get_sector_name()
+get_faction_info()
+add_faction_points()
+get_town_info()
+get_gen_town_missions()
+get_owned_town_missions()
+get_faction_missions()
+verify_player_inventory()
+get_mission_items()
+get_player_inventory()
+give_item_list()
+buy_item()
+sell_item()
+get_town_items()
+get_item_info()
+
+
+</panel_attributes><additional_attributes/></element><element><type>com.umlet.element.base.Class</type><coordinates><x>830</x><y>530</y><w>170</w><h>70</h></coordinates><panel_attributes>FactionDatabase
+--
+$db_util:DatabaseUtilities
+--
+get_faction_info()
+</panel_attributes><additional_attributes/></element><element><type>com.umlet.element.base.Class</type><coordinates><x>830</x><y>620</y><w>170</w><h>100</h></coordinates><panel_attributes>PlayerDatabase
+--
+$db_util:DatabaseUtilities
+--
+create_new_user()
+get_player_data()
+update_player_db()
+</panel_attributes><additional_attributes/></element><element><type>com.umlet.element.base.Class</type><coordinates><x>830</x><y>740</y><w>170</w><h>120</h></coordinates><panel_attributes>PvpDatabase
+--
+$db_util:DatabaseUtilities
+--
+get_opponent_list()
+get_items_by_type()
+get_faction_multiplier()
+update_faction_score()</panel_attributes><additional_attributes/></element><element><type>com.umlet.element.base.Class</type><coordinates><x>830</x><y>880</y><w>170</w><h>190</h></coordinates><panel_attributes>DatabaseUtilities
+--
+$server:String
+$login:String
+$password:String
+$db:String
+--
+connect_to_db()
+execute_query()
+real_escape()
+validate_int()
+validate_num()</panel_attributes><additional_attributes/></element></umlet_diagram>

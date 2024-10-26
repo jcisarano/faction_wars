@@ -1,0 +1,59 @@
+div.pickFaction{
+   width: 45%;
+   float: left;
+   margin-left: 5px;
+   margin-bottom: 5px;
+   border: thin solid #2d2d2d;
+   padding: 6px;
+   height:375px;
+}
+
+div.pickFaction img{
+   display:block;
+   margin-left:auto;
+   margin-right:auto;
+}
+
+div.factionName{
+	width:80%;
+	text-align:center;
+	margin-top:4px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+div.factionName span{
+    color:#e5bc75;
+    font-weight:bold;
+	font-size:16px;
+}
+
+form input{
+    color:#d27111;
+	font-family:Helvetica, Arial, sans-serif;
+	font-weight:bold;
+    background-color: #000;
+    border: 1px solid #d27111;
+	margin-left:20px;
+	margin-bottom:5px;
+	margin-top:5px;
+}
+
+div.title{
+	padding:0px;
+	margin-top:8px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-left:8px;
+    color:#e5bc75;
+    font-weight:bold;
+	font-size:18px;
+}
+
+input#nameField{
+	margin-left:20px;
+	width: 100px;
+	background-color:#000;
+	border: 2px solid #d27111;
+	color:#fff;
+}

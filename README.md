@@ -3,8 +3,9 @@ Faction Wars was a facebook game companion to the MMO Fallen Earth (2009). Playe
 
 Missions and in-game items were created by the design team and were related to elements in the MMO. All art came from the game. I was the sole programmer on the project.
 
-A few things that might be interesting:
+Looking back at this project has been an interesting experience, especially as a sort of "lessons learned" exercize where I can compare it to how I would do things differently today.
 
+A few things that might be interesting:
 - docs directory - Design documents, spreadsheets, instructions, test notes, a few screenshots
 - handlers directory - Essentially an API of actions hit by AJAX calls from the client
 - channel directory - If I recall correctly, this was a fb requirement
